@@ -1,0 +1,44 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{ngerman}
+
+\title{\LaTeX -\"Ubung, Aufgabe 5.2}
+\author{Monika Nagy}
+\date{\today}
+\begin{document}
+\maketitle
+
+\section{Aufgabe 2a)}
+Erster Abschnitt
+
+\section{Aufgabe 2b) - Tabelle}
+\begin{table}[h]
+\centering
+\begin{tabular}{c|c|c|c}
+	%\hline
+	 & Punkte erhalten & Punkte m\"oglich & \% \\
+	\hline
+	Aufgabe 1 & 2 & 4 & 0.5 \\
+	Aufgabe 2 & 3 & 3 & 1 \\
+	Aufgabe 3 & 3 & 3 & 1 \\
+	%\hline
+\end{tabular}
+\caption{Werte}
+\end{table}
+
+\section{Aufgabe 2c) - Formeln}
+\subsection{Pythagoras}
+Der Satz des Pzthagoras errechnet sich wie folgt: 
+$a^2 + b^2 = c^2$. Daraus k\"onnen wie die L\"ange der Hypothenuse wie folgt berechnen: 
+$c = \sqrt{a^2 + b^2}$.
+\subsection{Summen}
+Wir k\"onnen auch die Formel f\"ur eine Summe angeben:
+\begin{eqnarray}
+s = \sum_{i=1}^{n} i = \frac{n*(n+1)}{2}
+\end{eqnarray}
+
+
+
+
+
+
+\end{document}
