@@ -7,10 +7,6 @@
 \begin{document}
 \maketitle
 
-\section{Ich war hier}
-Freundliche Grüsse
-Calvin Schmid.
-
 \section{Aufgabe 2a)}
 Erster Abschnitt
 
@@ -44,6 +40,9 @@ s = \sum_{i=1}^{n} i = \frac{n*(n+1)}{2}
 
 \section{Cyrill's Besuch bei Monika}
 Ich war hier. Ganz liebe Grüsse, Cyrill Chevalley.
+
+\section{Gian-Luca Schmid war hier}
+Ich war hier. GianLucaS.
 
 
 \end{document}
